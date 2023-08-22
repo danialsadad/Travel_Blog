@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload</title>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 300px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Upload</h1>
+    <form action="./upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" id="image">
+        <input type="submit" name="submit" value="Upload Image">
+    </form>
+</body>
+</html>
